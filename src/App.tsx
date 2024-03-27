@@ -1,4 +1,4 @@
-import {Auth} from "@/components/auth.tsx";
+import {Auth} from "./components/auth.tsx";
 
 function App() {
 

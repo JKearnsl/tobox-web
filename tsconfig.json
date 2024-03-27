@@ -21,13 +21,15 @@
     "noFallthroughCasesInSwitch": true,
 
     /* Path  */
-    "baseUrl": ".",
+    "baseUrl": "./panel",
     "paths": {
       "@/*": [
         "./src/*"
       ]
     }
   },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": [
+    "src"
+  ],
+  "references": [{ "path": "./tsconfig.node.json"}]
 }
